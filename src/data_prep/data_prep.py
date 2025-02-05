@@ -98,6 +98,7 @@ def _create_sponsor_id(
     Args:
         bioguide_id: Series of bioguide IDs
         party: Series of party affiliations
+        state: Series of state abbreviations
         title: Series of sponsor titles
     """
     return bioguide_id + "_" + party + "_" + state + "_" + title

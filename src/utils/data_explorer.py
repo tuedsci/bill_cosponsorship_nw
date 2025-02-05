@@ -17,9 +17,7 @@ from IPython.display import display
 # INTERNAL HELPER FUNCTIONS
 # --------------------------------------------------
 def _get_array_cols(df: pd.DataFrame) -> list[str]:
-    """
-    Get columns that contain array-like values in a DataFrame.
-    """
+    """Get columns that contain array-like values in a DataFrame."""
     array_dtypes = (list, np.ndarray)
     array_cols = []
 

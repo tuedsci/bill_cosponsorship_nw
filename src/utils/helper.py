@@ -18,9 +18,7 @@ from tqdm import tqdm
 # GENERIC FUNCTIONS
 # --------------------------------------------------
 def load_data(data_path: str, **kwargs) -> pd.DataFrame:
-    """
-    Load data from multiple file formats.
-    """
+    """Load data from multiple file formats."""
     data_path = Path(data_path)
     file_ext = data_path.suffix
 

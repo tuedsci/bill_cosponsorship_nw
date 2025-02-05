@@ -9,9 +9,7 @@ import pandas as pd
 
 
 def summarize_network(G: nx.Graph, as_df=True) -> dict | pd.DataFrame:
-    """
-    Summarize a network with optimized computations.
-    """
+    """Summarize key metrics of a network."""
     n_nodes = G.number_of_nodes()
     n_edges = G.number_of_edges()
     connected = nx.is_connected(G)
